@@ -9,7 +9,7 @@ import controleur.Controleur;
 
 public class FramePrincipale extends JFrame {
 	private Controleur ctrl;
-	private JPanel panel;
+	private PanelPrincipal panel;
 
 	public FramePrincipale(Controleur ctrl) {
 		this.ctrl=ctrl;
@@ -20,7 +20,6 @@ public class FramePrincipale extends JFrame {
         this.setLocationRelativeTo(null);
 
 		this.panel = new JPanel();
-		panel.add(new JLabel(new ImageIcon("./img/img.jpg")));
 
 		this.add(panel);
 
