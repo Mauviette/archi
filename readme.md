@@ -11,6 +11,6 @@
 
 ### 🔴 Tâches à faire
 
-- 🔴 ajout de packages
-- 🔴 IHM
-- 🔴 Relation mère-fille
+- Ajout de packages
+- IHM
+- Relation mère-fille
