@@ -1,15 +1,13 @@
 # Organisation du projet
 
 
-| A faire        | En cours     | Fait         |
-|----------------|--------------|--------------|
-|                |              |              |
-|                |              |              |
-|                |              |              |
-|                |              |              |
-|                |              |              |
-|                |              |              |
-|                |              |              |
-|                |              |              |
-|                |              |              |
-|                |              |              |
+🟢 - fait
+🔴 - à faire
+🟡 - à revoir (bugs, améliorations à apporter)
+
+
+🔴 - ajout de packages
+🔴 - IHM
+🔴 - Relation mère-fille
+🔴 - 
+🔴 -
