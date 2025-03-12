@@ -19,27 +19,30 @@
 
 ### 1. Contrôleur
 
-Le contrôleur va gérer l'interaction entre la vue et le modèle (Master, NetworkManager).
-
 #### Responsabilités
 
-- Démarrer le serveur (Maître).
-- Gérer l’envoi de l’image et des tâches aux esclaves.
-- Récupérer et mettre à jour l’image après traitement.
-
+Initialiser Metier et Vue
+Faire passerelle des actions entre Metier et Vue
 
 ### 2. Métier
 
-Le modèle est responsable du découpage de l’image, de la gestion des sockets et du traitement distribué.
+#### Metier.java
+
+Démarrer le serveur (Parent.java)
 
 #### Parent.java (Serveur)
 
-Écoute les connexions des esclaves.
-Envoie une sous-image et une tâche à chaque esclave.
+Écoute les connexions des client.
+Envoie une sous-image et une tâche à chaque client.
 Récupère les sous-images traitées et les réassemble.
 
 #### Child.java (Client)
 
-Attend une connexion avec le maître.
+Attend une connexion avec le parent.
 Reçoit une sous-image et applique le traitement demandé.
-Renvoie la sous-image traitée au maître.
+Renvoie la sous-image traitée au parent.
+
+
+### 3. Vue
+
+Reçoit les données de Controleur et les met à jour
