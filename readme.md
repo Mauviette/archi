@@ -1,12 +1,15 @@
 # Organisation du projet
 
 
-🟢 : fait
+## Tâches 
 
-🔴 : à faire
 
-🟡 : à revoir (bugs, améliorations à apporter)
 
+### 🟢 Tâches faites
+
+### 🟡 Tâches à revoir (bugs, améliorations à apporter)
+
+### 🔴 Tâches à faire
 
 - 🔴 ajout de packages
 - 🔴 IHM
