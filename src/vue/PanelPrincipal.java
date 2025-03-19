@@ -2,10 +2,11 @@ package vue;
 
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
+import javax.swing.JPanel;
 
-public class PanelPrincipal {
+public class PanelPrincipal extends JPanel {
 
 	public PanelPrincipal() {
-		panel.add(new JLabel(new ImageIcon("./img/img.jpg")));
+		this.add(new JLabel(new ImageIcon("./img/img.jpg")));
 	}
 }

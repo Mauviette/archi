@@ -19,7 +19,7 @@ public class FramePrincipale extends JFrame {
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLocationRelativeTo(null);
 
-		this.panel = new JPanel();
+		this.panel = new PanelPrincipal();
 
 		this.add(panel);
 
